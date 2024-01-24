@@ -6,11 +6,14 @@ const connectDB = require('./db.config')
 const OrderModel = require('./models/Order.model')
 const Razorpay = require('razorpay')
 const crypto = require('crypto')
+const dotenv = require('dotenv')
+dotenv.config()
+
 
 const razorpay = new Razorpay({
-    key_id: 'rzp_test_HYf0kBYHQ7Ncx6',
-    key_secret: 'l946KF9kpEW2deQS0q625rIP',
-})
+    key_id: process.env.RAZORPAY_KEY_ID,
+    key_secret: process.env.RAZORPAY_KEY_SECRET,
+});
 
 connectDB()
 

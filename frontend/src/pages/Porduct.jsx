@@ -11,7 +11,7 @@ const Porduct = () => {
       amount
     })
     var options = {
-      "key": "rzp_test_HYf0kBYHQ7Ncx6", // Enter the Key ID generated from the Dashboard
+      "key": process.env.REACT_APP_RAZORPAY_API_KEY, // Enter the Key ID generated from the Dashboard
       "amount": order.amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
       "currency": order.currency,
       "name": "Avinash kumar",
