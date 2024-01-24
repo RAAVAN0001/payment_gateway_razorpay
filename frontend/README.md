@@ -1,12 +1,14 @@
-# trying to make a payment gateway in react using razorpay 
+# React Razorpay Payment Gateway
 
+This project demonstrates the integration of Razorpay payment gateway into a React application.
 
-- [front-end]
-- [backe-end]
+## Project Structure
+
+- [front-end] (React application)
+- [back-end] (Backend server)
 
 ## Getting Started
 
 1. Clone the repository
-   git clone https://github.com/yourusername/your-project.git
-2. run this cmd if you are in window
-    npm install
+   ```bash
+   git clone https://github.com/yourusername/razorpay-payment-gateway.git
