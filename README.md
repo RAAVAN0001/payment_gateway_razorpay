@@ -1,8 +1,4 @@
----
-noteId: "eb2afd70baee11ee83259fcad251b2ef"
-tags: []
 
----
 
 # React Razorpay Payment Gateway
 
